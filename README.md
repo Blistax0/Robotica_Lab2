@@ -25,7 +25,9 @@ Se utilizaron encoders de ambas ruedas para estimar el desplazamiento del robot:
 - right wheel sensor
 
 ## Filtro simple
-Antes de aplicar Kalman, se implementó un filtro exponencial simple:
+Antes de aplicar Kalman, se implementó un filtro exponencial con el objetivo de reducir parte del ruido presente en las lecturas de proximidad.
+
+La ecuación utilizada fue:
 
 $$f_k = \alpha x_k + (1 - \alpha) f_{k-1}$$ 
 
