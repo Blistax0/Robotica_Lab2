@@ -10,9 +10,6 @@ En este laboratorio se implementó el control de un robot móvil diferencial (e-
 
 Se combinaron sensores de proximidad, encoders y técnicas de filtrado para permitir que el robot detecte obstáculos y navegue de forma autónoma en un espacio con obstáculos. Además, se aplicó un filtro de Kalman para mejorar la estimación de proximidad frontal, reduciendo el efecto del ruido en las mediciones de los sensores.
 
-## Sensores utilizados 
-
-
 ## Implementación
  El laboratorio fue desarrollado utilizando el robot e-puck en Webots y el lenguaje Python.
 
